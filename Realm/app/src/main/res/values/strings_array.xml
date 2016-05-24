@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="realm_title_array">
+        <item>Rxjava</item>
+    </array>
+
+    <array name="realm_content_array">
+        <item>Realm has first-class support for RxJava, which means that the following Realm classes can be exposed as an Observable: Realm, RealmResults, RealmObject, DynamicRealm and DynamicRealmObject.</item>
+    </array>
+</resources>
