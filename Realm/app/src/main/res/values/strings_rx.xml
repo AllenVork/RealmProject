@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rx_description">Realm使用Rxjava进行异步查询需要注意两点:\n\n
+        1.异步查询虽然不阻塞主线程,但是会立马返回一个RealmResults实例,要保证你操作的是已经加载了数据的RealmResults,你需要通过filter操作来过滤Observable
+        过滤规则使用RealmResults.isLoaded()方法检查RealmResults是否已经加载了.\n
+        2.不要使用subscribeOn方法来设置被观察者执行的线程,因为Realm的异步查询已经是在一个线程中执行了
+    </string>
+</resources>
